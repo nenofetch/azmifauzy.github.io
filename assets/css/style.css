@@ -1,0 +1,403 @@
+
+
+
+
+/*=== IMPORT ===*/
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400&display=swap');
+
+.active{
+	color: #4daff1 !important;
+}
+
+/*=== CUSTOM CLASS ===*/
+.custom-button{
+	background: #4daff1;
+	border: 1px solid #4daff1;
+	color: white;
+	transition: 0.3s;
+	margin-top: 10px;
+}
+.custom-button:hover{
+	background: white;
+	color: #4daff1;
+	border: 1px solid #4daff1;
+}
+.custom-cv{
+	background: transparent;
+	color: #4daff1;
+	border: 1px solid #4daff1;
+	transition: 0.3s;
+}
+.custom-cv:hover{
+	background: #4daff1;
+	color: white;
+}
+/*=== NAVBAR ===*/
+
+
+.navbar{
+	background: white;
+	border-bottom: 1px solid #eee;
+	transition: 0.3s;
+}
+
+.navbar .navbar-brand{
+	font-family: 'Righteous', cursive;
+	font-size: 32px;
+	color: #4daff1 !important;
+}
+
+
+.navbar .nav-item{
+	font-family: 'Francois One', sans-serif;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+
+/*=== ABOUT ===*/
+
+.about{
+	background-image: url(../img/home-banner.jpg);
+	background-size: cover;
+	background-position: right;
+	margin-top: -75px;
+	height: 900px;
+	padding-top: 200px;
+}
+
+.about p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.about .mb-4{
+	font-weight: 400;
+}
+.about h3{
+	font-family: 'Righteous', cursive;
+	font-size: 30px;
+	margin-top: -20px;
+	color: #4daff1;
+}
+
+.about a{
+	padding: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 50px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.about span{
+	color: #4daff1;
+}
+
+.about img{
+	margin-top: 20px;
+}
+
+
+/*=== PORTFOLIO ===*/
+.jumboport{
+	background-image: url('../svg/bg.svg'); 
+	background-size: cover;
+	background-position: right;
+	background-color: #f9f9ff;
+	height: 100%;
+	position: relative;
+	top: -100px;
+}
+.portfolio{
+	margin-top: 10px;
+}
+.portfolio .recent-title h3{
+	font-family: 'Righteous', cursive;
+	color: #4daff1;
+}
+.portfolio .recent-title a{
+	color: black;
+}
+.portfolio .projects .col-md-4{
+	padding: 15px;
+}
+
+.portfolio .filter-list ul{
+	list-style: none;
+	margin-left: -70px;
+}
+.portfolio .filter-list li{
+	display: inline;
+	margin-left: 30px;
+}
+.portfolio .filter-list li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.portfolio .project{
+	border: 2px solid black;
+}
+.portfolio .project img{
+	width: 100%;
+	height: 250px;
+	transition: 0.3s;
+}
+
+.portfolio .project img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	opacity: 0.5;
+}
+.portfolio .project .project-text{
+	padding: 10px;
+	margin-top: -80px;
+	margin-bottom: -20px;
+	position: relative;
+}
+
+.portfolio .project .project-text a{
+	font-family: 'Righteous', cursive;
+	color: #4daff1;
+}
+.portfolio .project .project-text p{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #4daff1;
+}
+
+
+/*=== INTRODUCE ===*/
+.introduce{
+	background-color: #f9f9ff;
+	position: relative;
+	top: -37px;
+}
+
+.introduce h3{
+	font-family: 'Righteous', cursive;
+	color: #4daff1;
+}
+
+.introduce p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+.introduce p span{
+	color: #4daff1;
+}
+
+.introduce .custom-cv{
+	padding: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 50px;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+}
+
+.introduce h5{
+	float: left;
+}
+.introduce .eduinfo{
+	margin-left: 70px;
+	margin-top: -3px;
+}
+.introduce .eduinfo h4{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.introduce .edu h5{
+	border: 1px solid;
+	padding: 6px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 50px;
+	background: #4daff1;
+	color: white;
+}
+
+.introduce .eduinfo p{
+	font-size: 18px;
+}
+
+/*=== CONTACT ===*/
+
+.contact{
+	position: relative;
+	top: -50px;
+}
+
+.contact h3{
+	color: #4daff1;
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+.contact .mycontact i{
+	font-size: 20px;
+	margin-top: 3px;
+	color: #4daff1;
+}
+
+.contact .mycontact p{
+	font-size: 18px;
+	margin-left: 30px;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+}
+
+.contact .mycontact small{
+	font-size: 16px;
+	color: #777777;
+}
+
+.contact form textarea{
+	height: 150px;
+	font-weight: bold;
+}
+
+.contact form input{
+	font-weight: bold;
+}
+
+.contact form button{
+	border-color: #4daff1;
+	background-color: #4daff1;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+	border-radius: 50px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/*=== FOOTER ===*/
+
+footer{
+	border: 1px solid #f9f9ff;
+	border-top: 1px solid #eee;
+	padding: 25px;
+	background-color: #f9f9ff;
+	margin-top: -80px;
+}
+
+footer p{
+	margin-top: 7px;
+	margin-bottom: -0px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+footer .follme{
+	font-size: 24px;
+}
+
+footer .follme a{
+	margin-right: 20px;
+}
+
+
+/*=== FOOTER ===*/
+
+.modal h3{
+	font-family: 'Righteous', cursive;
+}
+
+.modal p,
+.modal label{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.modal label{
+	border: 1px solid;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+/*====== MEDIA MIN WIDTH ======*/
+
+@media (min-width: 992px)
+{
+	.navbar{
+		background: none;
+		border-bottom: none;
+	}
+	.about{
+		background-size: cover;
+		background-position: right;
+		margin-top: -75px;
+		height: 850px;
+		padding-top: 250px;
+	}
+	.about h3{
+		font-family: 'Righteous', cursive;
+		font-size: 44px;
+		margin-top: -20px;
+		color: #4daff1;
+	}
+
+	.about p{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: bold;
+		font-size: 28px;
+	}
+	.about .mb-4{
+		font-weight: 400;
+	}
+	.about img{
+		margin-top: 0px;
+	}
+	.about a{
+		padding: 15px;
+		padding-right: 30px;
+		padding-left: 30px;
+		border-radius: 50px;
+		margin-right: 10px;
+		font-weight: bold;
+		font-family: 'Josefin Sans', sans-serif;
+		text-decoration: none;
+		display: inline;
+	}
+	.custom-button{
+		background: #4daff1;
+		border: 1px solid #4daff1;
+		color: white;
+		transition: 0.3s;
+		margin-top: 0px;
+	}
+	.jumboport{
+		height: 750px;
+		position: relative;
+		top: -150px;
+	}
+	.introduce{
+		position: relative;
+		top: -90px;
+	}
+	.introduce p{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 20px;
+	}
+	.introduce a{
+		display: inline;
+	}
+	.contact h3{
+		color: #4daff1;
+		font-size: 30px;
+	}
+	footer{
+		margin-top: 0px;
+	}
+	
+}
